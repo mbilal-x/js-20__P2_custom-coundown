@@ -14,19 +14,21 @@
     <video src="train.mp4" class="background-video" loop muted autoplay></video>
 <!-- background video overlay -->
     <div class="background-overlay"></div>
-    <div class="timer">
-        <h1 class="timer__heading"></h1>
-        <!-- date picker form => scene-1-->
-        <form method="get" action="/" class="timer__form">
-            <input type="text" name="title" id="#form__input--title">
-            <input type="date" name="date" id="#form__input--date">
-            <button class="btn btn-submit" type="submit">SUBMIT</button>
-        </form>
-        <!-- timer display => scene-2 -->
-        <p class="timer__countdown">
-            
-        </p>
-    </div>
+    <main class="container">
+        <div class="timer">
+            <h1 class="timer__heading">Set Your Timer</h1>
+            <!-- date picker form => scene-1-->
+            <form method="get" action="/" class="timer__form">
+                <input type="text" name="title" id="form__input--title" placeholder="Enter Timer Name">
+                <input type="date" name="date" id="form__input--date">
+                <button class="btn btn--submit btn--white" type="submit">SUBMIT</button>
+            </form>
+            <!-- timer display => scene-2 -->
+            <p class="timer__countdown">
+                
+            </p>
+        </div>
+    </main>
     
 
     <!-- js -->

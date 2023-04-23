@@ -40,6 +40,7 @@ body{
 }
 
 .timer{
+    padding: 1rem;
     color: #111;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -49,7 +50,11 @@ body{
     border-radius: 5px;
 }
 
-.timer__heading{
+.scene-1{
+    /* display: none; */
+}
+
+.heading{
     font-weight: bold;
     letter-spacing: .3ch;
     margin: 1rem;
@@ -57,9 +62,7 @@ body{
 }
 
 .timer__form{
-    /* display: grid; */
-    display: none;
-    margin: 1rem;
+    display: grid;
 }
 
 .timer__form input{
@@ -90,9 +93,8 @@ body{
 
 }
 
-.timer__countdown{
-    /* display: none; */
-    padding: 1rem;
+.scene-2{
+    display: none;
 }
 
 .timer__countdown ul{
@@ -109,7 +111,9 @@ body{
     font-size: 2rem;
 }
 
-
+.scene-3{
+    display: none;
+}
 
 
 /* media queries */

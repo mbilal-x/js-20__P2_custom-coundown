@@ -16,22 +16,31 @@
     <div class="background-overlay"></div>
     <main class="container">
         <div class="timer">
-            <h1 class="timer__heading">Set Your Timer</h1>
-            <!-- date picker form => scene-1-->
-            <form method="get" action="/" class="timer__form">
-                <input required type="text" name="title" id="form__input--title" placeholder="Enter Timer Name">
-                <input required type="date" name="date" id="form__input--date">
-                <button class="btn btn--submit btn--black" type="submit">SUBMIT</button>
-            </form>
+            <div class="scene-1">
+                <h1 class="heading">Set Your Timer</h1>
+                <!-- date picker form => scene-1-->
+                <form method="get" action="/" class="timer__form">
+                    <input required type="text" name="title" id="form__input--title" placeholder="Enter Timer Name">
+                    <input required type="date" name="date" id="form__input--date">
+                    <button class="btn btn--submit btn--black" type="submit">SUBMIT</button>
+                </form>
+            </div>
             <!-- timer display => scene-2 -->
-            <div class="timer__countdown">
-                <ul>
-                    <li><span>1</span>Days</li>
-                    <li><span>20</span>Hours</li>
-                    <li><span>30</span>Minutes</li>
-                    <li><span>04</span>Seconds</li>
-                </ul>
-                <button class="btn btn--black">button</button>  
+            <div class="scene-2">
+                <div class="timer__countdown ">
+                    <ul>
+                        <li><span>1</span>Days</li>
+                        <li><span>20</span>Hours</li>
+                        <li><span>30</span>Minutes</li>
+                        <li><span>04</span>Seconds</li>
+                    </ul>
+                    <button class="btn btn--black">Reset</button>  
+                </div>
+            </div>
+            <!-- complete -->
+            <div class="scene-3">
+                <h1 class="heading">Completed</h1>
+                <button class="btn btn--black">Again</button>
             </div>
         </div>
     </main>

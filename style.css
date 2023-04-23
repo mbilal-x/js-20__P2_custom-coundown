@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-size: 1.2rem;
+}
+
 body{
     min-width: 100vh;
     min-width: 100vw;
@@ -36,14 +40,13 @@ body{
 }
 
 .timer{
-    color: #555;
+    color: #111;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.355);
     max-width: 19rem;
     border: 1px solid white;
     border-radius: 5px;
-    
 }
 
 .timer__heading{
@@ -54,7 +57,8 @@ body{
 }
 
 .timer__form{
-    display: grid;
+    /* display: grid; */
+    display: none;
     margin: 1rem;
 }
 
@@ -63,35 +67,46 @@ body{
 
     font-size: 1rem;
     padding: 1rem;
-    background:none ;
+    background:none;
     border-style: none;
     border: 1px solid #444;
     border-radius: 5px;
     margin: 0.5rem 0;
 }
 
-#form__input--title{
-
-}
-#form__input--date{
-
-}
 .btn{
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: .3ch;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 1rem;
-}
-
-.btn--submit{
+    width: 100%;
     margin: 1rem 0;
 }
 
-.btn--white{
+.btn--black{
     background-color: rgba(0, 0, 0, 0.514);
     color: white;
 
+}
+
+.timer__countdown{
+    /* display: none; */
+    padding: 1rem;
+}
+
+.timer__countdown ul{
+    list-style: none;
+    display: flex;
+}
+
+.timer__countdown ul li{
+    margin: .7rem;
+}
+
+.timer__countdown ul li span{
+    display: block;
+    font-size: 2rem;
 }
 
 

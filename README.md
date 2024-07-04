@@ -7,12 +7,12 @@ Welcome to Countdown Timer App
 This repository contains the web app I coding along with a js course where we make 20 js projects and learn about different js concepts and web APIs by following along.
 This is the 2nd project in this series.
 
-- **Live Link:** [Link](https://mbilal-x.github.io/js-20__music-player/)
-- **Code Link:** [Link](https://github.com/mbilal-x/js-20__music-player)
+- **Live Link:** [Link](https://mbilal-x.github.io/js-20__P2_custom-countdown)
+- **Code Link:** [Link](https://github.com/mbilal-x/js-20__P2_custom-countdown)
 - **Screen Shots:**
   ![](./screenshot1.png)
   ![](./screenshot2.png)
-  ![](./screenshot3.png)
+  ![](./screenshot2.png)
 
 ## Technologies Used
 

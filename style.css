@@ -23,13 +23,13 @@ body{
     height: 100vh;
 }
 
-.background-overlay{
+/* .background-overlay{
     position: fixed;
     z-index: -1;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(147, 146, 147, 0.224);
-}
+    background-color: rgba(255, 255, 255, 0.359);
+} */
 
 .container{
     height: 100vh;
@@ -50,14 +50,12 @@ body{
     border-radius: 5px;
 }
 
-.scene-1{
-    /* display: none; */
-}
+
 
 .heading{
     font-weight: bold;
     letter-spacing: .3ch;
-    margin: 1rem;
+    margin: 1rem;   
     margin-top: 2.2rem;
 }
 
@@ -72,7 +70,7 @@ body{
     padding: 1rem;
     background:none;
     border-style: none;
-    border: 1px solid #444;
+    border: 1px solid #000000;
     border-radius: 5px;
     margin: 0.5rem 0;
 }
@@ -88,7 +86,7 @@ body{
 }
 
 .btn--black{
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.968);
     color: white;
 
 }
@@ -114,6 +112,7 @@ body{
 .scene-3{
     display: none;
 }
+
 
 
 /* media queries */

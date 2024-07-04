@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- css -->
-<link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
 
     <title>Custom Countdownt</title>
-</head>
-<body>
-<!-- background video -->
+  </head>
+  <body>
+    <!-- background video -->
     <video src="train.mp4" class="background-video" loop muted autoplay></video>
-<!-- background video overlay -->
+    <!-- background video overlay -->
     <div class="background-overlay"></div>
     <main class="container">
-        <div class="timer">
-            <div class="scene-1">
-                <h1 class="heading">Set Your Timer</h1>
-                <!-- date picker form => scene-1-->
-                <form method="get" action="/" class="timer__form">
-                    <input required type="text" name="title" id="form__input--title" placeholder="Enter Timer Name">
-                    <input required type="date" name="date" id="form__input--date">
-                    <button class="btn btn--submit btn--black" type="submit">SUBMIT</button>
-                </form>   
-            </div>
-            <!--  -->
-                <!-- timer display => scene-2 -->
-            <div class="scene-2">
-                <div class="timer__countdown ">
-                    <ul>
-                        <li><span>1</span>Days</li>
-                        <li><span>20</span>Hours</li>
-                        <li><span>30</span>Minutes</li>
-                        <li><span>04</span>Seconds</li>
-                    </ul>
-                    <button class="btn btn--black">Reset</button>  
-                </div>
-            </div>
-            <!-- complete -->
-            <div class="scene-3">
-                <h1 class="heading">Completed</h1>
-                <button class="btn btn--black">Again</button>
-            </div>
+      <div class="timer">
+        <div class="scene-1">
+          <h1 class="heading">Set Your Timer</h1>
+          <!-- date picker form => scene-1-->
+          <form method="get" action="/" class="timer__form">
+            <input
+              required
+              type="text"
+              name="title"
+              id="input-title"
+              placeholder="Enter Timer Name"
+            />
+            <input required type="date" name="date" id="input-date" />
+            <button class="btn submit-btn btn--black" type="submit">
+              SUBMIT
+            </button>
+          </form>
         </div>
+        <!--  -->
+        <!-- timer display => scene-2 -->
+        <div class="scene-2">
+          <div class="timer__countdown">
+            <ul>
+              <li><span class="days">1</span>Days</li>
+              <li><span class="hours">20</span>Hours</li>
+              <li><span class="minutes">30</span>Minutes</li>
+              <li><span class="seconds">04</span>Seconds</li>
+            </ul>
+            <button class="btn btn--black reset-btn">Reset</button>
+          </div>
+        </div>
+        <!-- complete -->
+        <div class="scene-3">
+          <h1 class="heading">Completed</h1>
+          <button class="btn btn--black reset-btn">Again</button>
+        </div>
+      </div>
     </main>
-    
 
     <!-- js -->
-    <source src="index.html" type="js">
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>

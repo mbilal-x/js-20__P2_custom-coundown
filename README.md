@@ -9,6 +9,10 @@ This is the 2nd project in this series.
 
 - **Live Link:** [Link](https://mbilal-x.github.io/js-20__music-player/)
 - **Code Link:** [Link](https://github.com/mbilal-x/js-20__music-player)
+- **Screen Shots:**
+  ![](./screenshot1.png)
+  ![](./screenshot2.png)
+  ![](./screenshot3.png)
 
 ## Technologies Used
 
@@ -30,3 +34,13 @@ Things I practiced:
 ## Motivation
 
 To improve my skill and understanding of js by building projects alongside tutorials.
+
+## Improvements
+
+To further improve this project:
+
+- instead of just date, time can only be taken into account
+- LoFi BG music can be added
+- A clock ticking sound effect (sfx) can be included
+- design can be improved
+- efficience in loading can be improved

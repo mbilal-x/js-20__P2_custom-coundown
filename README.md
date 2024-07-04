@@ -18,12 +18,14 @@ This is the 2nd project in this series.
 
 ## Process
 
-Problems I faced:
+Things I practiced:
 
 - working with date object and methods
 - calculating time in days hours minutes seconds
 - deprecated DOM properties
 - background position adjustment
+- setInterval and clearInterval
+- storing, accessing and clearing localStorage
 
 ## Motivation
 
